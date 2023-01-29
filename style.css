@@ -1,0 +1,71 @@
+body{
+    background-color:#1F2937;
+    color:#F9FAF8;
+}
+
+h1{
+    text-align: center;
+    font-size:large;
+    line-height:1em;
+}
+
+button{
+    color: #F9FAF8;
+    font-size: 20px;
+    /*background: gray center/80% url("./assets/rock.png") no-repeat;*/
+    width: 80px;
+    height: 80px;
+    border-width: 0px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+#game-stat{
+    margin-top:20px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#score-container{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+#score-container{
+    text-align: center;
+    font-size: 30px;
+    margin:0px;
+    padding:0px;
+}
+
+#rock-btn{
+    background: gray center/80% url("./assets/rock.png") no-repeat
+}
+
+#paper-btn{
+    background: gray center/80% url("./assets/paper.png") no-repeat
+}
+
+#scissors-btn{
+    background: gray center/80% url("./assets/scissors.png") no-repeat
+}
+#player-span{
+    min-width: 5em;
+    text-align:right;
+    margin-right: 10px;
+}
+
+#ai-span{
+    min-width:5em;
+    text-align:left;
+    margin-left: 10px;
+}
+
+
+
